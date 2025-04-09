@@ -2,4 +2,118 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+
 }
+<div class="row">
+	<div class="col-5 col-sm-3 sfondo-sidebar" id="sidebar">
+		<nav class="nav flex-column text-light ">
+			<a class="nav-link active fs-5 text border-bottom" aria-current="page" href="#">🏋️FitManager</a>
+			<a class="nav-link active" aria-current="page" href="#">Dashboard</a>
+			<a class="nav-link" href="#">Iscritti</a>
+			<a class="nav-link" href="#">Lezioni</a>
+			<a class="nav-link disabled" aria-disabled="true">Istruttori</a>
+			<a class="nav-link disabled" aria-disabled="true">Abbonamenti</a>
+			<a class="nav-link disabled" aria-disabled="true"></a>
+			<a class="nav-link disabled" aria-disabled="true"></a>
+			<a class="nav-link disabled" aria-disabled="true"></a>
+		</nav>
+
+	</div>
+
+	<div class="col-7 col-sm-9" id="content">
+		<nav class="navbar navbar-expand-lg bg-body-tertiary ">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">Dashboard</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+						</li>
+						<li class="nav-item dropdown">
+						</li>
+					</ul>
+
+
+					<button type="button" class="btn btn-primary position-relative text-dark bg-light">
+						<i class="bi bi-bell"></i>
+						<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+
+							<span class="visually-hidden">unread messages</span>
+						</span>
+					</button>
+
+					<div class="dropdown ms-3 ">
+						<button class="btn btn-secondary dropdown-toggle text-dark bg-light " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							<i class="bi bi-person-circle"></i>
+							Admin
+						</button>
+
+						<ul class="dropdown-menu ms5">
+							<li><a class="dropdown-item" href="#">Action</a></li>
+							<li><a class="dropdown-item" href="#">Another action</a></li>
+							<li><a class="dropdown-item" href="#">Something else here</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="container m-0">
+			<h3>Benvenuto in FitManager</h3>
+			<div class="row justify-content-md-center">
+				<div class="col">
+					<div class="card text-bg-primary p-3 mb-2">
+						<div class="row card-body ">
+							<h5 class=" col card-title">Iscritti Attivi</h5>
+							<i class=" col-3 bi bi-people-fill"></i>
+							<p class="card-text">154</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="col">
+					<div class="card text-bg-success p-3 mb-2">
+						<div class="row card-body ">
+							<h5 class="col card-title">Lezioni Oggi</h5>
+							<i class="col-3 bi bi-calendar-event"></i>
+							<p class="card-text">8</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class=" card text-bg-warning p-3 mb-2">
+						<div class="row card-body ">
+							<h5 class="col card-title">Nuovi Iscritti</h5>
+							<i class="col-3 bi bi-person-plus-fill"></i>
+							<p class="card-text">12</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card text-bg-danger p-3 ">
+						<div class="row card-body ">
+							<h5 class="col card-title">Entrate Mensili</h5>
+							<i class="col-3 bi bi-cash-coin font-size"></i>
+							<p class="card-text">3.200</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col">
+					<div class="card light.bg-gradient mt-3 ms-1">
+						<div class="row card-body ">
+							<h5 class="col card-title">Prossimamente:Grafici Statistici</h5>
+							<p class="card-text">Questa Sezione conterrà grafici informativi sulle performance del centro fitness. Puoi usare Chart.jl, ma non verrà incluso alcuno script in questa versione</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>    <!-- End Example Code -->
+
+</div>
