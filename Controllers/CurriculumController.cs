@@ -6,7 +6,12 @@ namespace A2_MVC.Controllers
     {
         public IActionResult Luigi()
         {
-            return Luigi();
+            return View();
+        }
+
+        public IActionResult Vito()
+        {
+            return View();
         }
     }
 }
