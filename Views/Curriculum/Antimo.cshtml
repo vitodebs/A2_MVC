@@ -4,116 +4,268 @@
 @{
 
 }
-<div class="row">
-	<div class="col-5 col-sm-3 sfondo-sidebar" id="sidebar">
+
+<link href="~/css/antimo.css" rel="stylesheet" />
+<div class=" row">
+	<div class="bg-dark  col-5 col-sm-3 sfondo-sidebar" id="sidebar">
 		<nav class="nav flex-column text-light ">
-			<a class="nav-link active fs-5 text border-bottom" aria-current="page" href="#">🏋️FitManager</a>
-			<a class="nav-link active" aria-current="page" href="#">Dashboard</a>
-			<a class="nav-link" href="#">Iscritti</a>
-			<a class="nav-link" href="#">Lezioni</a>
-			<a class="nav-link disabled" aria-disabled="true">Istruttori</a>
-			<a class="nav-link disabled" aria-disabled="true">Abbonamenti</a>
-			<a class="nav-link disabled" aria-disabled="true"></a>
-			<a class="nav-link disabled" aria-disabled="true"></a>
-			<a class="nav-link disabled" aria-disabled="true"></a>
+			<a class=" fs-5 text-light  bg-dark " alt="..."><img class="border-bottom img-fluid rounded-circle mx-auto d-block mt-3" style="width: 150px; height: 150px; object-fit: cover;" src="~/img/gatto2.jpg" /></a>
+			<a class="mt-2   fs-5 text-light border-bottom bg-dark" aria-current="page">Chi Sono?</a>
+			@* <a class="mt-2 text-light" aria-current="page"><h3>Contatti:</h3></a> *@
+			<p>&nbsp</p>
+
+			<a class="mt-2 text-light" aria-disabled="true">Profilo</a>
+			<p class="text-light">
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident,
+				sunt in culpa qui officia deserunt mollit anim id est laborum."
+			</p>
+			<a class="mt-2 text-light" aria-disabled="true">Aree di Compentenza</a>
+			<p class="text-light">
+				"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				Excepteur sint occaecat cupidatat non proident,
+				sunt in culpa qui officia deserunt mollit anim id est laborum."
+			</p>
+			<a class="mt-2 text-light" aria-disabled="true">Lingue</a>
+			<ul>
+				<li>Italiano</li>
+				<li>Inglese</li>
+				<li>Spagnolo</li>
+			</ul>
+			@* bottone *@
+			<button class="btn btn-outline-light btn-sm ms-2 mb-2" style="width:10rem" id="toggleContatti">
+				<i class="bi bi-telephone"></i>
+				Mostra Contatti
+			</button>
+
+			<div id="contattiSection">
+
+				<a class="mt-1 text-light"><i class="bi bi-phone-fill"></i>Telefono</a>
+				<ul>
+
+					<li class="text-light">+39-3519774450</li>
+				</ul>
+
+				<a class="mt-2 text-light"><i class="bi bi-envelope-fill"></i>E-Mail</a>
+				<ul>
+					<li class="text-light">Antyrick@hotmail.it</li>
+
+				</ul>
+
+				<a class="mt-2 text-light" aria-disabled="true"><i class="bi bi-laptop"></i>Social</a>
+				<ul>
+
+					<li class="text-light"><i class="bi bi-instagram"></i>Yggdras.ill_</li>
+					<li class="text-light"><i class="bi bi-linkedin"></i>antimo-riccardo-cerreto-050498225</li>
+				</ul>
+				<a class="mt-2 text-light" aria-disabled="true"><i class="bi bi-house"></i>Città</a>
+				<ul>
+				<li class="text-light">Caserta</li>
+
+				</ul>
+			</div>
 		</nav>
 
 	</div>
 
 	<div class="col-7 col-sm-9" id="content">
-		<nav class="navbar navbar-expand-lg bg-body-tertiary ">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Dashboard</a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-						</li>
-						<li class="nav-item dropdown">
-						</li>
-					</ul>
 
+		<div class="container m-2">
+			<h1>Antimo Riccardo Cerreto</h1>
+			<h2 class="border-bottom">Junior .Net Developer</h2>
+			<div class="justify-content-md-center">
+				<div class="">
+					<div class="card" style="width:60rem;">
+						<img src="~/img/tmw.jpg" style="width:60rem;" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Una breve descrizione</h5>
+							<p class="card-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+								Excepteur sint occaecat cupidatat non proident,
+								sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+						</div>
+					</div>
+					@* formazione *@
 
-					<button type="button" class="btn btn-primary position-relative text-dark bg-light">
-						<i class="bi bi-bell"></i>
-						<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+					<button class="btn btn-outline-dark btn-sm mb-3 mt-2" id="toggleFormazione">
 
-							<span class="visually-hidden">unread messages</span>
-						</span>
+						<i class="bi bi-book"></i>
+						Mostra Formazione
+					</button>
+					<div id="formazioneSection">
+						<h3 class="mt-2">Formazione</h3>
+
+						<div class="card mt-2 card-hover" style="width: 60rem;">
+							<div class="card-body">
+								<h3 class="card-title">Formazione x</h3>
+								<h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+									Excepteur sint occaecat cupidatat non proident,
+									sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+								<a href="#" class="card-link">Altre Informazioni</a>
+								<a href="#" class="card-link">Contatti</a>
+							</div>
+						</div>
+						<div class="card mt-2 card-hover" style="width: 60rem;">
+							<div class="card-body">
+								<h3 class="card-title">Formazione y</h3>
+								<h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+									Excepteur sint occaecat cupidatat non proident,
+									sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+								<a href="#" class="card-link">Altre Informazioni</a>
+								<a href="#" class="card-link">Contatti</a>
+							</div>
+						</div>
+						<div class="card mt-2 card-hover" style="width: 60rem;">
+							<div class="card-body">
+								<h3 class="card-title">Formazione z</h3>
+								<h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+									Excepteur sint occaecat cupidatat non proident,
+									sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+								<a href="#" class="card-link">Altre Informazioni</a>
+								<a href="#" class="card-link">Contatti</a>
+							</div>
+						</div>
+					</div>
+					@* progetti *@
+					<button class="btn btn-outline-dark btn-sm mb-3 mt-2" id="toggleProgetti">
+						<i class="bi bi-file-earmark"></i>
+						Mostra Progetti
+					</button>
+					<div id="progettiSection">
+
+						<h3 class="mt-2">Lavori e Progetti</h3>
+						<div class="card mt-2 card-hover" style="width: 60rem;">
+							<div class="card-body">
+								<h3 class="card-title">Progetto A</h3>
+								<h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+									Excepteur sint occaecat cupidatat non proident,
+									sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+								<a href="#" class="card-link">Altre Informazioni</a>
+								<a href="#" class="card-link">Contatti</a>
+							</div>
+						</div>
+						<div class="card mt-2 card-hover" style="width: 60rem;">
+							<div class="card-body">
+								<h3 class="card-title">Progetto b</h3>
+								<h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+									Excepteur sint occaecat cupidatat non proident,
+									sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+								<a href="#" class="card-link">Altre Informazioni</a>
+								<a href="#" class="card-link">Contatti</a>
+							</div>
+						</div>
+						<div class="card mt-2 card-hover" style="width: 60rem;">
+							<div class="card-body">
+								<h3 class="card-title">Progetto c</h3>
+								<h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+								<p class="card-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+									sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+									Excepteur sint occaecat cupidatat non proident,
+									sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</p>
+								<a href="#" class="card-link">Altre Informazioni</a>
+								<a href="#" class="card-link">Contatti</a>
+							</div>
+						</div>
+					</div>
+					@* competenze *@
+					<button class="btn btn-outline-dark btn-sm mb-3 mt-2" onclick="toggleCompetenze()">
+						<i class="bi bi-bar-chart-steps"></i>
+						Mostra Competenze
 					</button>
 
-					<div class="dropdown ms-3 ">
-						<button class="btn btn-secondary dropdown-toggle text-dark bg-light " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-							<i class="bi bi-person-circle"></i>
-							Admin
-						</button>
 
-						<ul class="dropdown-menu ms5">
-							<li><a class="dropdown-item" href="#">Action</a></li>
-							<li><a class="dropdown-item" href="#">Another action</a></li>
-							<li><a class="dropdown-item" href="#">Something else here</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
-		<div class="container m-0">
-			<h3>Benvenuto in FitManager</h3>
-			<div class="row justify-content-md-center">
-				<div class="col">
-					<div class="card text-bg-primary p-3 mb-2">
-						<div class="row card-body ">
-							<h5 class=" col card-title">Iscritti Attivi</h5>
-							<i class=" col-3 bi bi-people-fill"></i>
-							<p class="card-text">154</p>
+					<div id="competenzeSection" class="mt-3" style="display: none;">
+
+						<h3 class="mt-4">Competenze Tecniche</h3>
+						<p>C#</p>
+						<div class="progress mb-2">
+							<div class="progress-bar bg-primary" style="width: 25%">25%</div>
 						</div>
 
-					</div>
-				</div>
-				<div class="col">
-					<div class="card text-bg-success p-3 mb-2">
-						<div class="row card-body ">
-							<h5 class="col card-title">Lezioni Oggi</h5>
-							<i class="col-3 bi bi-calendar-event"></i>
-							<p class="card-text">8</p>
+						<p>ASP.NET MVC</p>
+						<div class="progress mb-2">
+							<div class="progress-bar bg-success" style="width: 3%">3%</div>
+						</div>
+
+						<p>JavaScript</p>
+						<div class="progress mb-2">
+							<div class="progress-bar bg-warning text-dark" style="width: 7%">7%</div>
+						</div>
+
+						<p>SQL</p>
+						<div class="progress mb-2">
+							<div class="progress-bar bg-info text-dark" style="width: 20%">20%</div>
+						</div>
+
+						<p>HTML / CSS</p>
+						<div class="progress mb-2">
+							<div class="progress-bar bg-danger" style="width: 50%">50%</div>
 						</div>
 					</div>
+
+
+
+
+
+
+
+
 				</div>
-				<div class="col">
-					<div class=" card text-bg-warning p-3 mb-2">
-						<div class="row card-body ">
-							<h5 class="col card-title">Nuovi Iscritti</h5>
-							<i class="col-3 bi bi-person-plus-fill"></i>
-							<p class="card-text">12</p>
-						</div>
-					</div>
-				</div>
-				<div class="col">
-					<div class="card text-bg-danger p-3 ">
-						<div class="row card-body ">
-							<h5 class="col card-title">Entrate Mensili</h5>
-							<i class="col-3 bi bi-cash-coin font-size"></i>
-							<p class="card-text">3.200</p>
-						</div>
-					</div>
-				</div>
+
+
+
 
 			</div>
-			<div class="row">
-				<div class="col">
-					<div class="card light.bg-gradient mt-3 ms-1">
-						<div class="row card-body ">
-							<h5 class="col card-title">Prossimamente:Grafici Statistici</h5>
-							<p class="card-text">Questa Sezione conterrà grafici informativi sulle performance del centro fitness. Puoi usare Chart.jl, ma non verrà incluso alcuno script in questa versione</p>
-						</div>
-					</div>
 
-				</div>
-			</div>
 		</div>
 
 	</div>    <!-- End Example Code -->
 
 </div>
+@section Scripts {
+	<script src="~/js/Antimo.js"></script>
+}

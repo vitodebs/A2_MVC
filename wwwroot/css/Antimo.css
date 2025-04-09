@@ -1,0 +1,20 @@
+﻿body {
+}
+
+/* Effetto hover per card */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: scale(1.05); /* Aumenta la dimensione */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Ombra leggera */
+    cursor: pointer; /* Cambia il cursore per far capire che è cliccabile */
+}
+
+/* Aggiungi un effetto di dissolvenza quando le card appaiono */
+.card {
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
