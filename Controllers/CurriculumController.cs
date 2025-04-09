@@ -12,5 +12,9 @@ namespace A2_MVC.Controllers
         {
             return View();
         }
+        public IActionResult Davide()
+        {
+            return View();
+        }
     }
 }
