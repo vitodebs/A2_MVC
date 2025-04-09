@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="wwwroot\css\images\luis.jpg" />
+    <None Include="wwwroot\images\luis.jpg" />
   </ItemGroup>
 
   <ItemGroup>
